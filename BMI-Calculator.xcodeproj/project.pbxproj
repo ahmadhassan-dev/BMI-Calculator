@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		0452F5BA2A432E5900A20650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452F5B92A432E5900A20650 /* AppDelegate.swift */; };
 		0452F5BC2A432E5900A20650 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452F5BB2A432E5900A20650 /* SceneDelegate.swift */; };
-		0452F5BE2A432E5900A20650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452F5BD2A432E5900A20650 /* ViewController.swift */; };
-		0452F5C12A432E5900A20650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0452F5BF2A432E5900A20650 /* Main.storyboard */; };
 		0452F5C32A432E5B00A20650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0452F5C22A432E5B00A20650 /* Assets.xcassets */; };
 		0452F5C62A432E5B00A20650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0452F5C42A432E5B00A20650 /* LaunchScreen.storyboard */; };
 		0452F5D12A432E5C00A20650 /* BMI_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452F5D02A432E5C00A20650 /* BMI_CalculatorTests.swift */; };
 		0452F5DB2A432E5C00A20650 /* BMI_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452F5DA2A432E5C00A20650 /* BMI_CalculatorUITests.swift */; };
 		0452F5DD2A432E5C00A20650 /* BMI_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452F5DC2A432E5C00A20650 /* BMI_CalculatorUITestsLaunchTests.swift */; };
+		048579FC2A4335E000E0BE0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452F5BD2A432E5900A20650 /* ViewController.swift */; };
+		048579FD2A4335EA00E0BE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0452F5BF2A432E5900A20650 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,9 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048579FD2A4335EA00E0BE0B /* Main.storyboard in Resources */,
 				0452F5C62A432E5B00A20650 /* LaunchScreen.storyboard in Resources */,
 				0452F5C32A432E5B00A20650 /* Assets.xcassets in Resources */,
-				0452F5C12A432E5900A20650 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0452F5BE2A432E5900A20650 /* ViewController.swift in Sources */,
+				048579FC2A4335E000E0BE0B /* ViewController.swift in Sources */,
 				0452F5BA2A432E5900A20650 /* AppDelegate.swift in Sources */,
 				0452F5BC2A432E5900A20650 /* SceneDelegate.swift in Sources */,
 			);
