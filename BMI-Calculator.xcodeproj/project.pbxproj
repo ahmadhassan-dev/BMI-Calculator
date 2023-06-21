@@ -101,8 +101,9 @@
 			children = (
 				0452F5B92A432E5900A20650 /* AppDelegate.swift */,
 				0452F5BB2A432E5900A20650 /* SceneDelegate.swift */,
-				0452F5BD2A432E5900A20650 /* ViewController.swift */,
-				0452F5BF2A432E5900A20650 /* Main.storyboard */,
+				0452F5EC2A4330A200A20650 /* Model */,
+				0452F5E92A43307400A20650 /* View */,
+				0452F5EA2A43307A00A20650 /* Controller */,
 				0452F5C22A432E5B00A20650 /* Assets.xcassets */,
 				0452F5C42A432E5B00A20650 /* LaunchScreen.storyboard */,
 				0452F5C72A432E5B00A20650 /* Info.plist */,
@@ -125,6 +126,29 @@
 				0452F5DC2A432E5C00A20650 /* BMI_CalculatorUITestsLaunchTests.swift */,
 			);
 			path = "BMI-CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		0452F5E92A43307400A20650 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0452F5BF2A432E5900A20650 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0452F5EA2A43307A00A20650 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0452F5BD2A432E5900A20650 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0452F5EC2A4330A200A20650 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
