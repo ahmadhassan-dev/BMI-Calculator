@@ -35,7 +35,9 @@ class ViewController: UIViewController {
         var heightInM2 = height*height
         
         var bmi = weightInKgs/heightInM2
-        print(bmi)
+        let svController = SecondViewController()
+        svController.bmi = String(format:"%.2f",bmi)
+        self.present(svController, animated: true)
     }
     
 }
