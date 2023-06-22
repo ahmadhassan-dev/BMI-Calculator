@@ -17,12 +17,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func heightSlider(_ sender: UISlider) {
-        heightText.text = sender.value.description
+        var height = String(format: "%.2f", sender.value)
+        heightText.text = "\(height)m"
     }
     
 
     @IBAction func weightSlider(_ sender: UISlider) {
-        weightText.text = sender.value.description
+        var weight = String(format: "%.0f", sender.value)
+        weightText.text = "\(weight)g"
     }
 }
 
