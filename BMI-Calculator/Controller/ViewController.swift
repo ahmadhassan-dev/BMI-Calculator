@@ -35,9 +35,15 @@ class ViewController: UIViewController {
         var heightInM2 = height*height
         
         var bmi = weightInKgs/heightInM2
-        let svController = SecondViewController()
-        svController.bmi = String(format:"%.2f",bmi)
-        self.present(svController, animated: true)
+        self.performSegue(withIdentifier: "goToResult", sender: self)
+
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         if segue.identifier == "goToResult"{
+            let destinationVC = segue.destination as! ResultViewController
+             destinationVC.bmiValue = "0.5"
+        }
     }
     
 }
