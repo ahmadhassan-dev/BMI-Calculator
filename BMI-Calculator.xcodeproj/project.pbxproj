@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041230C62A45BA660068C64B /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041230C52A45BA660068C64B /* CalculatorBrain.swift */; };
 		0452F5BA2A432E5900A20650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452F5B92A432E5900A20650 /* AppDelegate.swift */; };
 		0452F5BC2A432E5900A20650 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452F5BB2A432E5900A20650 /* SceneDelegate.swift */; };
 		0452F5C32A432E5B00A20650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0452F5C22A432E5B00A20650 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041230C52A45BA660068C64B /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		0452F5B62A432E5900A20650 /* BMI-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0452F5B92A432E5900A20650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0452F5BB2A432E5900A20650 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		0452F5EC2A4330A200A20650 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				041230C52A45BA660068C64B /* CalculatorBrain.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				048579FC2A4335E000E0BE0B /* ViewController.swift in Sources */,
 				0452F5BA2A432E5900A20650 /* AppDelegate.swift in Sources */,
 				0452F5BC2A432E5900A20650 /* SceneDelegate.swift in Sources */,
+				041230C62A45BA660068C64B /* CalculatorBrain.swift in Sources */,
 				047B6F912A447D25006B4197 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
