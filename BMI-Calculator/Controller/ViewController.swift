@@ -22,16 +22,19 @@ class ViewController: UIViewController {
 
     @IBAction func heightSlider(_ sender: UISlider) {
         var height = String(format: "%.2f", sender.value)
+        
         heightText.text = "\(height)m"
     }
     
 
     @IBAction func weightSlider(_ sender: UISlider) {
         var weight = String(format: "%.0f", sender.value)
+        
         weightText.text = "\(weight)g"
     }
     @IBAction func calculatePressed(_ sender: UIButton) {
         let weight = weightSlider.value
+        
         let height = heightSlider.value
         
         calculatorBrain.calculate(height:height,weight:weight)
@@ -43,6 +46,7 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
          if segue.identifier == "goToResult"{
+             
             let destinationVC = segue.destination as! ResultViewController
              destinationVC.bmiValue = String(format:"%.2f",calculatorBrain.getBmi())
         }
